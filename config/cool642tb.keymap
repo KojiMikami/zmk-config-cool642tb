@@ -69,10 +69,10 @@
 
         FUNCTION {
             bindings = <
-&kp P      &kp F7            &kp F8        &kp F9  &kp F12                         &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
-&kp G      &kp F4            &kp F5        &kp F6  &kp F11  &none   &none          &kp Y      &kp GRAVE  &kp SEMICOLON     &kp SQT            &kp ENTER
-&kp F13    &kp F1            &kp F2        &kp F3  &kp F10  &none   &none          &kp N      &kp COMMA  &kp PERIOD        &kp RCTRL          &kp RIGHT_SHIFT
-&kp LCTRL  &kp LEFT_COMMAND  &kp LEFT_ALT  &trans  &trans   &trans  &kp BACKSPACE  &mo 3                                                      &kp ESCAPE
+&kp P      &kp F7            &kp F8        &kp F9  &kp F12                               &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
+&kp G      &kp F4            &kp F5        &kp F6  &kp F11  &bt BT_SEL 0  &bt BT_SEL 1   &kp Y      &kp GRAVE  &kp SEMICOLON     &kp SQT            &kp ENTER
+&kp F13    &kp F1            &kp F2        &kp F3  &kp F10  &bt BT_NXT    &bt BT_PRV     &kp N      &kp COMMA  &kp PERIOD        &kp RCTRL          &kp RIGHT_SHIFT
+&kp LCTRL  &kp LEFT_COMMAND  &kp LEFT_ALT  &trans  &trans   &trans        &kp BACKSPACE  &mo 3                                                      &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
