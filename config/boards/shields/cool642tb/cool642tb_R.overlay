@@ -19,6 +19,9 @@
 };
 
 / {
+    /* ここに追記：このシールドが seeed_xiao_ble 用であることを明示 */
+    compatible = "seeed,xiao-ble";
+
     /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
         compatible = "zmk,input-processor-temp-layer";
         #input-processor-cells = <2>;
